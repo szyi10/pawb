@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body::before {
+	display: block;
+	content: '';
+	height: 60px;
+}
+
+.footer-list {
+	list-style-type: none;
+	display: flex;
+}
+
+.footer-list li {
+	margin: 0 10px;
+	font-size: 30px;
+}
+
+.footer-list a {
+	color: #f50057;
+}
+
+.about-list {
+	list-style-type: circle;
+}
